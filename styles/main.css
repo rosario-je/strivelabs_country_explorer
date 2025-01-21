@@ -1,8 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
 header.main_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f0f0f0;
+    color: #333;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+.country_list {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: calc(100vh - 120px);
+    width: calc(100vw - 240px);
     padding: 10px;
     color: #333;
+    position: fixed;
+    margin-top: 100px;
+}
+
+#pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.favourites_list {
+    background-color: #f0f0f0;
+    padding: 10px;
+    color: #333;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    height: calc(100vh - 70px);
 }
