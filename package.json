@@ -1,0 +1,14 @@
+{
+  "name": "strivelabs_country_explorer",
+  "version": "1.0.0",
+  "description": "This is the submission for Jose Eduardo Payamps for the front end position at Strivelabs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Jose Eduardo Payamps",
+  "license": "ISC"
+}
